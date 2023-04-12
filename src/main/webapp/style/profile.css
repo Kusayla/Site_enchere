@@ -1,0 +1,60 @@
+.mainProfile {
+  width: 70vw;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.mainProfile h2 {
+  font-size: 1.6rem;
+  color: #004982;
+  margin-bottom: 20px;
+}
+
+/* Styles pour les catégories */
+.catWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.itemsWrapper {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.itemsWrapper h3 {
+  font-size: 1.2rem;
+  color: #004982;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.itemsWrapper p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Style pour le bouton de modification */
+button {
+  background-color: #004982;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #003557;
+}
+
+.label{
+	color:#004982;
+	font-weight:600;
+}

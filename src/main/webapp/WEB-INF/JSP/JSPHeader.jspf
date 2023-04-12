@@ -1,0 +1,33 @@
+<header>
+	<div>
+		<a href="ServletSell?action=home">
+			<img src="img/erreur-404_${connexionOK != null ? 'vert' : 'rouge'}.png" alt="logo" class="logo">
+   		</a>
+		
+	</div>
+    <a class="homeButton" href="${pageContext.request.contextPath}/">Eni Enchères - groupe 404</a>
+    <div class="nav">
+        <c:if test="${connexionOK != null}">
+	        <div>
+	        	<a href="${pageContext.request.contextPath}/ServletSell">Vendre</a>
+	        </div>
+	        <div>
+	        	<a href="${pageContext.request.contextPath}/">${connexionOK.getCredit()} Crédits</a>
+	        </div>
+        	<div>
+        		<a href="${pageContext.request.contextPath}/profil?noUtilisateur=${ connexionOK.getNoUtilisateur() }">Profil</a>
+        	</div>
+        	<div>
+        		<a href="${pageContext.request.contextPath}/deconnexion">Déconnexion</a>
+        	</div>
+        </c:if>
+        <c:if test="${connexionOK == null}">
+        <div>
+            <a href="${pageContext.request.contextPath}/inscription">Inscription</a>
+        </div>
+        	<div>
+        		<a href="${pageContext.request.contextPath}/connexion">Connexion</a>
+        	</div>
+       </c:if>
+    </div>
+</header>

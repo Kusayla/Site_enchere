@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer une enchère - ENI-Enchères</title>
+    <link rel="stylesheet" href="style/StyleVendre.css">
+</head>
+<body>
+    <div class="header">
+        <h1>ENI-Enchères</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Mon compte</a></li>
+                <li><a href="#">Déconnexion</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="main">
+        <h2>Créer une enchère</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom de l'article :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="noCategorie">Catégorie :</label>
+            <select id="noCategorie" name="noCategorie">
+                <option value=0>Informatique</option>
+                <option value=1>Ameublement</option>
+                <option value=2>Vêtement</option>
+                <option value=3>Sport & Loisirs</option>
+            </select>
+            <label for="description">Description :</label>
+            <textarea id="description" name="description" required></textarea>
+            <label for="prix_de_depart">Prix de départ :</label>
+            <input type="number" id="prix_de_depart" name="prix_de_depart" required>
+            <label for="dateDebutEncheres">Date d'ouverture :</label>
+            <input type="datetime-local" id="dateDebutEncheres" name="dateDebutEncheres" required>
+            <label for="dateFinEncheres">Date de clôture :</label>
+            <input type="datetime-local" id="dateFinEncheres" name="dateFinEncheres" required>
+            <label for="modalites">Modalités du retrait :</label>
+            <select id="modalites" name="modalites">
+                <option value="adresse_utilisateur">Votre Adresse</option>
+                <option value="point_relais">Point Relais</option>
+                <option value="Envoie">Envoie à vos frais</option>
+            </select>
+            <input type="submit" value="Créer l'enchère">
+        </form>
+    </div>
+    <div class="footer">
+        <p>ENI-Enchères &copy; 2023 - Aucun droit réservés.</p>
+    </div>
+</body>
+</html>

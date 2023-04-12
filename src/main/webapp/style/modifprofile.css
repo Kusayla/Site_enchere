@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.modifprofilMain {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.modifprofilMain h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #004982;
+}
+
+.modifprofilMain h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #004982;
+  margin-top: 10px;
+}
+
+.modifprofilMain p {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.modifprofilMain input[type="text"],
+.modifprofilMain input[type="password"] {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.modifprofilMain button {
+  background-color: #004982;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.modifprofilMain button:hover {
+  background-color: #fff;
+  color: #004982;
+  border: 1px solid #004982;
+}

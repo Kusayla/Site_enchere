@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:center;
+	background-color: #004982;
+	color: white;
+	padding-bottom: 5px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.homeButton{
+	padding: 2vh 5vw;
+	color: white;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	column-gap: 5vw;
+	padding: 2vh 5vw;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    width: 50px;
+    height: auto;
+    padding-left: 2vw;
+    
+}
+
+.textError {
+	color: red;
+}
+
+@media screen and (max-width: 756px) {
+    .logo {
+      display: none;
+    }
+  
+  }
+
+  @media screen and (max-width: 666px) {
+    .homeButton {
+        font-size: 1.2rem;
+    }
+  
+  }
+  
+  @media  screen and (max-width: 585px) {
+    .homeButton {
+      display: none;
+    }
+    header{
+        justify-content: center;
+    }
+  }

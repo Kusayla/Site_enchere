@@ -1,0 +1,75 @@
+.formWrapper{
+	margin-top : 10vh;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.formWrapper form{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	margin-top:15px;
+	padding: 0 15px;
+}
+
+.formWrapper div{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 5vw;
+	align-items: center;
+}
+
+.formWrapper p{
+	align-self: center;
+	margin-bottom: 20px;
+	background-color: #004982;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.mainRegistration{
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	border: 1px solid #004982;
+	height: 30px;
+	border-radius: 2px;
+	width: 50%;
+}
+
+.buttonForm{
+	width: 100%;
+	margin-top: 15px;
+	background-color: white;
+	cursor: pointer;
+	border: 1px solid #004982;
+	color: #004982;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+input[type=text], input[type=password]{
+	padding-left: 10px;
+	color: #004982;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+label{
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #004982;
+}
+
+.buttonForm:hover{
+	background-color: #f1f6fa;
+}
